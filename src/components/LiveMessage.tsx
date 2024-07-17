@@ -24,7 +24,7 @@ const LiveMessage = (props: {
       updateMessage(id, value);
       return reader.read().then(processText);
     });
-  });
+  }, [id, stream, updateMessage]);
 
   return <Message role={role} message={message} working={!done}></Message>;
 };
