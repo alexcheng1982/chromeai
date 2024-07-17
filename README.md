@@ -2,7 +2,7 @@
 
 > This project was inspired by [lightning-joyce/chromeai](https://github.com/lightning-joyce/chromeai/).
 
-Visit the page [alexcheng1982.github.io/chromeai/](https://alexcheng1982.github.io/chromeai/).
+**Visit the page [alexcheng1982.github.io/chromeai/](https://alexcheng1982.github.io/chromeai/)**.
 
 ![Screenshot](./image/screenshot.png)
 
@@ -31,7 +31,14 @@ const model = await window.ai.createTextSession();
 await model.prompt("Who are you?");
 ```
 
-![Chrome flags](./image/chrome-flags.png)
+<details>
+
+  <summary>View flags</summary>
+
+  ![Chrome flags](./image/chrome-flags.png)
+
+</details>
+
 
 ## Known issues
 
