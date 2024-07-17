@@ -6,6 +6,10 @@ Visit the page [alexcheng1982.github.io/chromeai/](https://alexcheng1982.github.
 
 ![Screenshot](./image/screenshot.png)
 
+## Implementation
+
+`promptStreaming` is used for streaming output. During testing, I found out that `prompt` often gave incomplete results.
+
 ## Use Chrome AI
 
 ### Prerequisites
