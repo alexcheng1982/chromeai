@@ -120,7 +120,7 @@ const ChatUI = () => {
             </Modal.Subtitle>
             <Modal.Content>
               <p>
-                Please use Chrome Canary and enable Chrome AI, see
+                Please use Chrome Canary and enable Chrome AI, see{" "}
                 <Link
                   href="https://github.com/alexcheng1982/chromeai?tab=readme-ov-file#use-chrome-ai"
                   target="_blank"
