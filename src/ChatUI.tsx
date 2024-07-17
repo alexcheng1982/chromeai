@@ -122,7 +122,7 @@ const ChatUI = () => {
               <p>
                 Please use Chrome Canary and enable Chrome AI, see
                 <Link
-                  href="chromeai-help"
+                  href="https://github.com/alexcheng1982/chromeai?tab=readme-ov-file#use-chrome-ai"
                   target="_blank"
                   color
                   placeholder={undefined}

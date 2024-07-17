@@ -10,6 +10,8 @@
 
 Latest version of Google Chrome (127+) or any compatible Chromium-based browser.
 
+### Set Up Built-in Gemini Nano in Chrome
+
 1. **Install Chrome Canary**: Ensure you have version 127. [Download Chrome Canary](https://google.com/chrome/canary/).
 2. **Enable Prompt API**: Open `chrome://flags/#prompt-api-for-gemini-nano`, set it to "Enabled".
 3. **Enable Optimization Guide**: Open `chrome://flags/#optimization-guide-on-device-model`, set it to "Enabled BypassPerfRequirement". Restart the browser.
