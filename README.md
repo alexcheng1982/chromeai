@@ -2,6 +2,8 @@
 
 > This project was inspired by [lightning-joyce/chromeai](https://github.com/lightning-joyce/chromeai/).
 
+Visit the page [alexcheng1982.github.io/chromeai/](https://alexcheng1982.github.io/chromeai/).
+
 ![Screenshot](./image/screenshot.png)
 
 ## Use Chrome AI
@@ -26,3 +28,7 @@ await model.prompt("Who are you?");
 ```
 
 ![Chrome flags](./image/chrome-flags.png)
+
+## Known issues
+
+1. When message history is enabled, the model may not function properly.
