@@ -24,7 +24,7 @@ const LiveMessage = (props: {
       updateMessage(id, value);
       return reader.read().then(processText);
     });
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return <Message role={role} message={message} working={!done}></Message>;
 };
