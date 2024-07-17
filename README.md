@@ -4,7 +4,15 @@
 
 **Visit the page [alexcheng1982.github.io/chromeai/](https://alexcheng1982.github.io/chromeai/)**.
 
-![Screenshot](./image/screenshot.png)
+
+<details>
+
+  <summary>View screenshot</summary>
+
+  ![Screenshot](./image/screenshot.png)
+
+</details>
+
 
 ## Implementation
 
