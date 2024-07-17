@@ -32,7 +32,7 @@ const checkAI = async () => {
 
 export type Role = "user" | "assistant";
 
-export default () => {
+const ChatUI = () => {
   const rawChatHistory = useRef<any[]>([]);
   const [hasAI, setHasAI] = useState<null | boolean>(null);
   const [historyEnabled, setHistoryEnabled] = useState<boolean>(false);
@@ -228,3 +228,5 @@ export default () => {
     </Page>
   );
 };
+
+export default ChatUI;
