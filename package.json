@@ -2,6 +2,7 @@
   "name": "chromeai-test-page",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alexcheng1982.github.io/chromeai",
   "dependencies": {
     "@geist-ui/core": "^2.3.8",
     "@geist-ui/icons": "^1.0.2",
@@ -12,6 +13,7 @@
     "@types/node": "^16.18.102",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
@@ -22,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
