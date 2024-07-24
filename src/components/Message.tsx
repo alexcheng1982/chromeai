@@ -1,5 +1,6 @@
-import { Card, Grid, Loading, Spacer, Text } from "@geist-ui/core";
+import { Card, Grid, Loading, Spacer } from "@geist-ui/core";
 import { Chrome, User } from "@geist-ui/icons";
+import Markdown from "react-markdown";
 import { Role } from "../ChatUI";
 
 const Message = (props: { role: Role; message: string; working: boolean }) => {
@@ -20,7 +21,7 @@ const Message = (props: { role: Role; message: string; working: boolean }) => {
               </div>
             </Grid>
             <Grid xs={22}>
-              <Text>{message}</Text>
+              <Markdown>{message}</Markdown>
             </Grid>
           </Grid.Container>
         </Card>

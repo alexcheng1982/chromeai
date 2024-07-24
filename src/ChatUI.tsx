@@ -1,7 +1,6 @@
 import {
   Button,
   Checkbox,
-  CssBaseline,
   GeistProvider,
   Grid,
   Input,
@@ -112,7 +111,6 @@ const ChatUI = () => {
       </Page.Header>
       <Page.Content>
         <GeistProvider>
-          <CssBaseline />
           <Modal visible={!hasAI} disableBackdropClick={true}>
             <Modal.Title>Chrome AI Not Supported</Modal.Title>
             <Modal.Subtitle>
@@ -165,16 +163,18 @@ const ChatUI = () => {
               })}
             </div>
             <Grid.Container gap={1} justify="center">
-              <Grid xs={1}>
+              <Grid xs={2}>
                 <Tooltip text={"Enable message history"} type="dark">
                   <Checkbox
                     checked={historyEnabled}
                     type="default"
                     onChange={(e) => setHistoryEnabled(e.target.checked)}
-                  ></Checkbox>
+                  >
+                    History
+                  </Checkbox>
                 </Tooltip>
               </Grid>
-              <Grid xs={4}>
+              <Grid xs={3}>
                 <Tooltip text={"Clear message history"} type="dark">
                   <Button
                     disabled={!historyEnabled || !hasAI || inferring}
@@ -183,7 +183,7 @@ const ChatUI = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Reset
+                    Clear History
                   </Button>
                 </Tooltip>
               </Grid>
