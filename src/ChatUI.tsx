@@ -10,6 +10,8 @@ import {
   Tooltip,
 } from "@geist-ui/core";
 
+import { Github } from "@geist-ui/icons";
+
 import { useEffect, useRef, useState } from "react";
 import LiveMessage from "./components/LiveMessage";
 import Message from "./components/Message";
@@ -108,6 +110,13 @@ const ChatUI = () => {
     <Page>
       <Page.Header>
         <h2>Chrome AI Test Page</h2>
+        <a
+          href="https://github.com/alexcheng1982/chromeai"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Github></Github>
+        </a>
       </Page.Header>
       <Page.Content>
         <GeistProvider>
@@ -164,7 +173,11 @@ const ChatUI = () => {
             </div>
             <Grid.Container gap={1} justify="center">
               <Grid xs={2}>
-                <Tooltip text={"Enable message history"} type="dark">
+                <Tooltip
+                  text={"Enable message history"}
+                  type="dark"
+                  placement="right"
+                >
                   <Checkbox
                     checked={historyEnabled}
                     type="default"
