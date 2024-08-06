@@ -133,7 +133,7 @@ const ChatUI = () => {
               </p>
             </Modal.Content>
           </Modal>
-          <div style={{ margin: "10px" }}>
+          <div style={{ margin: "20px" }}>
             <div
               style={{
                 height: "500px",

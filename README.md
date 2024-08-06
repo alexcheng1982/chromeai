@@ -22,7 +22,11 @@
 
 ### Prerequisites
 
-Latest version of Google Chrome (129+) or any compatible Chromium-based browser.
+Latest version of Google Chrome (127+) or any compatible Chromium-based browser. 
+
+Tested Chrome versions: 
+
+- `129.0.6640.0`
 
 ### Set Up Built-in Gemini Nano in Chrome
 
